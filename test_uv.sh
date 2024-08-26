@@ -14,7 +14,7 @@ echo "Public PYPI PROXY"
 uv pip install --index-url https://pypi.org/simple/ -r requirements.txt
 uninstall_packages
 echo "Reinstall"
-uv pip install --index-url http://pypi.org/simple/ -r requirements.txt
+uv pip install --index-url https://pypi.org/simple/ -r requirements.txt
 uninstall_packages
 
 echo "--------------------------------------------"
