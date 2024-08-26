@@ -1,0 +1,17 @@
+pypiproxy/cache
+.env
+.project
+.pydevproject
+.settings
+*.pyc
+__pycache__
+*.egg-info
+*.egg
+build/
+dist/
+.tox/
+.idea/
+venv/
+.venv/
+.vscode/
+
