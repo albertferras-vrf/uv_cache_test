@@ -17,6 +17,7 @@ from starlette.responses import HTMLResponse
 
 app = FastAPI()
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "cache")
+os.makedirs(CACHE_DIR, exist_ok=True)
 PYPI_INDEX_URL = "https://pypi.org/simple/"
 DELAY_GET_PACKAGE_PAGE = 0.15
 
